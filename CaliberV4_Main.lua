@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() -- Load vape first
+if not shared.VapeExecuted then loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() end -- Load vape first
 
 repeat task.wait() until shared.VapeFullyLoaded == true -- it might break otherwise LOL
 
